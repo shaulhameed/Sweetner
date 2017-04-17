@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE2A6CAF1EA4AC2900FE2444 /* Sweetner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE2A6CA51EA4AC2900FE2444 /* Sweetner.framework */; };
+		AE2A6CB41EA4AC2900FE2444 /* SweetnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2A6CB31EA4AC2900FE2444 /* SweetnerTests.swift */; };
+		AE2A6CB61EA4AC2900FE2444 /* Sweetner.h in Headers */ = {isa = PBXBuildFile; fileRef = AE2A6CA81EA4AC2900FE2444 /* Sweetner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE2A6CC01EA4AC6700FE2444 /* Sweetner.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2A6CBF1EA4AC6700FE2444 /* Sweetner.swift */; };
+		AE2A6CC11EA4AC6700FE2444 /* Sweetner.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2A6CBF1EA4AC6700FE2444 /* Sweetner.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE2A6CB01EA4AC2900FE2444 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE2A6C9C1EA4AC2900FE2444 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE2A6CA41EA4AC2900FE2444;
+			remoteInfo = Sweetner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE2A6CA51EA4AC2900FE2444 /* Sweetner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Sweetner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE2A6CA81EA4AC2900FE2444 /* Sweetner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sweetner.h; sourceTree = "<group>"; };
+		AE2A6CA91EA4AC2900FE2444 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE2A6CAE1EA4AC2900FE2444 /* SweetnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SweetnerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE2A6CB31EA4AC2900FE2444 /* SweetnerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SweetnerTests.swift; sourceTree = "<group>"; };
+		AE2A6CB51EA4AC2900FE2444 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE2A6CBF1EA4AC6700FE2444 /* Sweetner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sweetner.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE2A6CA11EA4AC2900FE2444 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE2A6CAB1EA4AC2900FE2444 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE2A6CAF1EA4AC2900FE2444 /* Sweetner.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE2A6C9B1EA4AC2900FE2444 = {
+			isa = PBXGroup;
+			children = (
+				AE2A6CA71EA4AC2900FE2444 /* Sweetner */,
+				AE2A6CB21EA4AC2900FE2444 /* SweetnerTests */,
+				AE2A6CA61EA4AC2900FE2444 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE2A6CA61EA4AC2900FE2444 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE2A6CA51EA4AC2900FE2444 /* Sweetner.framework */,
+				AE2A6CAE1EA4AC2900FE2444 /* SweetnerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE2A6CA71EA4AC2900FE2444 /* Sweetner */ = {
+			isa = PBXGroup;
+			children = (
+				AE2A6CA81EA4AC2900FE2444 /* Sweetner.h */,
+				AE2A6CA91EA4AC2900FE2444 /* Info.plist */,
+				AE2A6CBF1EA4AC6700FE2444 /* Sweetner.swift */,
+			);
+			path = Sweetner;
+			sourceTree = "<group>";
+		};
+		AE2A6CB21EA4AC2900FE2444 /* SweetnerTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE2A6CB31EA4AC2900FE2444 /* SweetnerTests.swift */,
+				AE2A6CB51EA4AC2900FE2444 /* Info.plist */,
+			);
+			path = SweetnerTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AE2A6CA21EA4AC2900FE2444 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE2A6CB61EA4AC2900FE2444 /* Sweetner.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AE2A6CA41EA4AC2900FE2444 /* Sweetner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE2A6CB91EA4AC2900FE2444 /* Build configuration list for PBXNativeTarget "Sweetner" */;
+			buildPhases = (
+				AE2A6CA01EA4AC2900FE2444 /* Sources */,
+				AE2A6CA11EA4AC2900FE2444 /* Frameworks */,
+				AE2A6CA21EA4AC2900FE2444 /* Headers */,
+				AE2A6CA31EA4AC2900FE2444 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sweetner;
+			productName = Sweetner;
+			productReference = AE2A6CA51EA4AC2900FE2444 /* Sweetner.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AE2A6CAD1EA4AC2900FE2444 /* SweetnerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE2A6CBC1EA4AC2900FE2444 /* Build configuration list for PBXNativeTarget "SweetnerTests" */;
+			buildPhases = (
+				AE2A6CAA1EA4AC2900FE2444 /* Sources */,
+				AE2A6CAB1EA4AC2900FE2444 /* Frameworks */,
+				AE2A6CAC1EA4AC2900FE2444 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE2A6CB11EA4AC2900FE2444 /* PBXTargetDependency */,
+			);
+			name = SweetnerTests;
+			productName = SweetnerTests;
+			productReference = AE2A6CAE1EA4AC2900FE2444 /* SweetnerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE2A6C9C1EA4AC2900FE2444 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Shaul hameed";
+				TargetAttributes = {
+					AE2A6CA41EA4AC2900FE2444 = {
+						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					AE2A6CAD1EA4AC2900FE2444 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AE2A6C9F1EA4AC2900FE2444 /* Build configuration list for PBXProject "Sweetner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AE2A6C9B1EA4AC2900FE2444;
+			productRefGroup = AE2A6CA61EA4AC2900FE2444 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE2A6CA41EA4AC2900FE2444 /* Sweetner */,
+				AE2A6CAD1EA4AC2900FE2444 /* SweetnerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE2A6CA31EA4AC2900FE2444 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE2A6CAC1EA4AC2900FE2444 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE2A6CA01EA4AC2900FE2444 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE2A6CC01EA4AC6700FE2444 /* Sweetner.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE2A6CAA1EA4AC2900FE2444 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE2A6CC11EA4AC6700FE2444 /* Sweetner.swift in Sources */,
+				AE2A6CB41EA4AC2900FE2444 /* SweetnerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE2A6CB11EA4AC2900FE2444 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE2A6CA41EA4AC2900FE2444 /* Sweetner */;
+			targetProxy = AE2A6CB01EA4AC2900FE2444 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AE2A6CB71EA4AC2900FE2444 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AE2A6CB81EA4AC2900FE2444 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AE2A6CBA1EA4AC2900FE2444 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Sweetner/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zee.Sweetner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AE2A6CBB1EA4AC2900FE2444 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Sweetner/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zee.Sweetner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AE2A6CBD1EA4AC2900FE2444 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SweetnerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zee.SweetnerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AE2A6CBE1EA4AC2900FE2444 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SweetnerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zee.SweetnerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE2A6C9F1EA4AC2900FE2444 /* Build configuration list for PBXProject "Sweetner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE2A6CB71EA4AC2900FE2444 /* Debug */,
+				AE2A6CB81EA4AC2900FE2444 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE2A6CB91EA4AC2900FE2444 /* Build configuration list for PBXNativeTarget "Sweetner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE2A6CBA1EA4AC2900FE2444 /* Debug */,
+				AE2A6CBB1EA4AC2900FE2444 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AE2A6CBC1EA4AC2900FE2444 /* Build configuration list for PBXNativeTarget "SweetnerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE2A6CBD1EA4AC2900FE2444 /* Debug */,
+				AE2A6CBE1EA4AC2900FE2444 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE2A6C9C1EA4AC2900FE2444 /* Project object */;
+}
