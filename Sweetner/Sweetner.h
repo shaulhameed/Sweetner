@@ -6,7 +6,7 @@
 //  Copyright © 2017 Shaul hameed. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+@import Foundation;
 
 //! Project version number for Sweetner.
 FOUNDATION_EXPORT double SweetnerVersionNumber;
